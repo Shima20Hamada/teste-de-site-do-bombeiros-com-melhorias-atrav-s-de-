@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    scroll-snap-type: y mandatory;
+}
+
+h1 {
+    color: black;
+    font-variant: small-caps;
+    width: auto;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: auto;
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+    width: auto;
+    line-height: 1.5em;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500);
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: relative;
+}
+
+.subdiv {
+    width: 30vw;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: rgb(97, 97, 97);
+    border: 0px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500);
+    margin: auto;
+    text-align: center;
+}
+
+.iframe {
+    height: 650px;
+    width: 1500px;
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+iframe {
+    margin: auto;
+    text-align: center;
+}
+
+.telas {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 650px;
+    width: 98%;
+    margin: auto;
+    background-color: black;
+}
+
+#ctrlcv {
+    margin: auto;
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 0px 0px 10px 10px;
+}
